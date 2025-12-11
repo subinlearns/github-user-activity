@@ -1,0 +1,12 @@
+{
+  "name": "github-ga",
+  "version": "1.0.0",
+  "description": "Github User Activity",
+  "license": "ISC",
+  "author": "subin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
