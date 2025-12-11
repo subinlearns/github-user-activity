@@ -24,14 +24,14 @@ This tool shows events like commits, issues opened/closed, stars, and more — d
 Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/subinlearns/github-user-activity.git
+cd github-user-activity 
 ```
 
 Make the script executable (optional):
 
 ```bash
-chmod +x activity.js
+chmod +x index.js
 ```
 
 ---
@@ -41,13 +41,13 @@ chmod +x activity.js
 Run the script with a GitHub username:
 
 ```bash
-node activity.js <username>
+node index.js <username>
 ```
 
 Example:
 
 ```bash
-node activity.js octocat
+node index.js octocat
 ```
 
 Example output:
@@ -65,7 +65,7 @@ Other Activity in octocat/test-repo
 
 ```
 .
-├── activity.js      # Main CLI script
+├── index.js      # Main CLI script
 └── README.md        # Documentation
 ```
 
